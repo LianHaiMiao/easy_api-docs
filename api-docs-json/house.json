@@ -1,0 +1,31 @@
+{
+    "tag": "House",
+    "name": "房源模块",
+    "apilist": [{
+            "method": "GET",
+            "path": "/house/recommend",
+            "summary": "获取为您推荐",
+            "description": "在这里您可以更为详细的描述这个接口以及注意事项",
+            "parameter": []
+        },
+        {
+            "method": "POST",
+            "path": "/house/defaults",
+            "summary": "获取直营房源列表",
+            "description": "在这里您可以更为详细的描述这个接口以及注意事项",
+            "parameter": [{
+                "name": "limit",
+                "description": "获取数据数目"
+            }, {
+                "name": "offset",
+                "description": "偏移数据"
+            }, {
+                "name": "city",
+                "description": "用户定位城市"
+            }, {
+                "name": "search",
+                "description": "获取数据数目"
+            }]
+        }
+    ]
+}

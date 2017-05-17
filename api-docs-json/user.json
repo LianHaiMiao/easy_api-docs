@@ -1,0 +1,28 @@
+{
+    "tag": "User",
+    "name": "用户模块",
+    "apilist": [{
+            "method": "POST",
+            "path": "/auth/login",
+            "summary": "用户登入",
+            "description": "在这里您可以更为详细的描述这个接口以及注意事项",
+            "parameter": [{
+                "name": "account",
+                "description": "手机号"
+            }, {
+                "name": "code",
+                "description": "验证码"
+            }]
+        },
+        {
+            "method": "POST",
+            "path": "/auth/code",
+            "summary": "用户获取验证码，手机短信接收",
+            "description": "在这里您可以更为详细的描述这个接口以及注意事项",
+            "parameter": [{
+                "name": "mobile",
+                "description": "获取数据数目"
+            }]
+        }
+    ]
+}

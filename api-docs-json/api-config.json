@@ -1,0 +1,7 @@
+{
+    "title": "本地blogAPI借口测试",
+    "version": "1.0.0",
+    "schemes": "HTTP",
+    "host": "http://127.0.0.1",
+    "basePath": "/api"
+}

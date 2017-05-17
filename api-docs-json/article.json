@@ -1,0 +1,25 @@
+{
+    "tag": "Article",
+    "name": "文章模块",
+    "apilist": [{
+            "method": "GET",
+            "path": "/article/show",
+            "summary": "获取所有文章信息",
+            "description": "查看所有文章的信息,返回的格式为json格式",
+            "parameter": []
+        },
+        {
+            "method": "POST",
+            "path": "/article/add",
+            "summary": "新增文章",
+            "description": "在这里您可以更为详细的描述这个接口以及注意事项",
+            "parameter": [{
+                "name": "author",
+                "description": "作者名称"
+            }, {
+                "name": "content",
+                "description": "文章内容"
+            }]
+        }
+    ]
+}
