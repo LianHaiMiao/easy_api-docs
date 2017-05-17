@@ -1,14 +1,14 @@
-# easy-swagger
+# easy_api-docs
 一款配合Laravel框架使用的RESTAPI接口在线测试工具集.
 
 # 开发原因
-Laravel配合Swagger开发API,确实很方便,但是使用Swagger也有一些缺陷.
+因为后台开发API接口一定是需要测试的,本人以前使用过swagger,但是...
 
-> 1.swagger应该是遍历了所有controller文件,开启一次要30s以上吧.
+> 1.swagger应该是遍历了所有controller文件,大型一些的项目开启一次要10s以上吧.
 
 > 2.使用swagger一旦有某个地方的注释写错了,就gg,直接报错,让人无语...
 
-为此,有了一个造轮子的想法....我自己写了一个简单版本的swagger,姑且叫easy-swagger.
+为此,有了一个造轮子的想法....我自己写了一个简单版本的swagger,姑且叫easy_api-docs.
 
 # 补充一下
 
